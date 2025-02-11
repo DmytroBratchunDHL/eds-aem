@@ -108,17 +108,17 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
-  const getNavPath = (path, nav = '/nav') => {
-    const parts = path.split('/').filter(Boolean);
+  const getNavPath = (path, nav = "/nav") => {
+    const parts = path.split("/").filter(Boolean);
     if (parts.length < 2) {
       return nav;
     }
-    return `/${parts.slice(0, 2).join('/')}${nav}`;
-  };
-
+    return "/" + parts.slice(0, 2).join("/") + nav;
+  }
+  
   // load nav as fragment
   const navMeta = getMetadata('nav');
-  const { pathname } = new URL(navMeta, window.location);
+  const pathname = new URL(navMeta, window.location).pathname;
   const navPath = navMeta ? pathname : getNavPath(pathname);
   const fragment = await loadFragment(navPath);
 
