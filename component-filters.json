@@ -25,6 +25,12 @@
     ]
   },
   {
+    "id": "cardsv2",
+    "components": [
+      "cardv2"
+    ]
+  },
+  {
     "id": "columns",
     "components": [
       "column"
