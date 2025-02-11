@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p149863-e15444230.adobeaemcloud.com/bin/franklin.delivery/DmytroBratchunDHL/dhl-discover-edge-delivery-demo/main"
+    url: "https://author-p149863-e1544423.adobeaemcloud.com/bin/franklin.delivery/DmytroBratchunDHL/dhl-discover-edge-delivery-demo/main"
     type: "markup"
     suffix: ".html"
