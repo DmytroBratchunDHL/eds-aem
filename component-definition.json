@@ -173,7 +173,7 @@
           }
         },
         {
-          "title": "Hero",
+          "title": "Hero title",
           "id": "hero",
           "plugins": {
             "xwalk": {
