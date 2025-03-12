@@ -197,28 +197,28 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "formtitle_formtitle",
+        "name": "formtitle",
         "label": "Form Title",
         "value": ""
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "elementid_elementid",
+        "name": "elementid",
         "label": "Marketo 'Element' ID",
         "value": "903-EZK-832"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "formid_formid",
+        "name": "formid",
         "label": "Marketo 'Form' ID (i.e. '1795')",
         "value": "1795"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "hiddenormid_hiddenformid",
+        "name": "hiddenformid",
         "label": "Marketo 'Hidden Form' ID (i.e. '1795')",
         "value": ""
       },
