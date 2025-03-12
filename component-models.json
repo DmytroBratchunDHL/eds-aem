@@ -225,7 +225,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "hostname_hostname",
+        "name": "hostname",
         "label": "Marketo instance hostname (such as https://express-resource.dhl.com)",
         "value": "https://express-resource.dhl.com"
       }
