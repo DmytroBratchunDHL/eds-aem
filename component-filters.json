@@ -16,7 +16,7 @@
       "cards",
       "columns",
       "fragment",
-      "marketoForm",
+      "marketo-form",
       "quote"
     ]
   },
@@ -39,7 +39,7 @@
       "image",
       "button",
       "title",
-      "marketoForm"
+      "marketo-form"
     ]
   }
 ]

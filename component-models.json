@@ -192,40 +192,40 @@
     ]
   },
   {
-    "id": "marketoForm",
+    "id": "marketo-form",
     "fields": [
       {
         "component": "text",
         "valueType": "string",
-        "name": "formtitle",
+        "name": "formtitle_formtitle",
         "label": "Form Title",
         "value": ""
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "elementid",
+        "name": "elementid_elementid",
         "label": "Marketo 'Element' ID",
         "value": "903-EZK-832"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "formid",
+        "name": "formid_formid",
         "label": "Marketo 'Form' ID (i.e. '1795')",
         "value": "1795"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "hiddenformId",
+        "name": "hiddenormid_hiddenformid",
         "label": "Marketo 'Hidden Form' ID (i.e. '1795')",
         "value": ""
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "hostname",
+        "name": "hostname_hostname",
         "label": "Marketo instance hostname (such as https://express-resource.dhl.com)",
         "value": "https://express-resource.dhl.com"
       }
