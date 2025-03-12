@@ -72,7 +72,8 @@
 
 body {
   display: none;
-  margin: 0;
+  max-width: 1640px;
+  margin: auto;
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
