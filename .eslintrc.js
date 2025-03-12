@@ -20,7 +20,7 @@ module.exports = {
     'no-param-reassign': [2, { props: false }], // allow modifying properties of param
     'xwalk/max-cells': ['error', {
       '*': 4,
-      marketoForm: 6,
+      'marketo-form': 6,
     }],
   },
 };
