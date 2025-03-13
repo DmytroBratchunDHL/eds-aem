@@ -11,7 +11,8 @@ function isProd() {
 }
 
 function loadLaunch() {
-  const launch = isProd() ? prodLaunch : stageLaunch;
+  const launch = document.createElement('script');
+  launch.src = isProd() ? prodLaunch : stageLaunch;
   launch.onload = function onEvergageLoad() {};
   launch.onerror = function onEvergageError() {};
   document.head.appendChild(launch);
