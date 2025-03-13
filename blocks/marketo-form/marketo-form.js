@@ -1,5 +1,3 @@
-import marketoForm from './MarketoForm.js';
-
 export default function decorate(block) {
   // Extract values from the given HTML structure
   const munchkinId = block.children[1]?.querySelector('p')?.textContent.trim() || '';
@@ -57,6 +55,4 @@ export default function decorate(block) {
 
   // Replace the original block content
   block.replaceChildren(newFormContainer);
-
-  marketoForm.init();
 }
