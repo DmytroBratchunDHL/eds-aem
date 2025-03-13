@@ -37,7 +37,7 @@
 
 /* Light */
 @font-face {
-  font-family: "Delivery";
+  font-family: Delivery;
   font-style: normal;
   font-weight: 200;
   src:
@@ -48,7 +48,7 @@
 
 /* Light Italic */
 @font-face {
-  font-family: "Delivery";
+  font-family: Delivery;
   font-style: italic;
   font-weight: 200;
   src:
@@ -59,7 +59,7 @@
 
 /* Regular */
 @font-face {
-  font-family: "Delivery";
+  font-family: Delivery;
   font-style: normal;
   font-weight: 400;
   src:
