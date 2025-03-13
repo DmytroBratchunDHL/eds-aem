@@ -1,3 +1,4 @@
+/* eslint-disable */
 class Shared {
   constructor() {
     this.submitForm = this.submitForm.bind(this);
@@ -19,9 +20,9 @@ class Shared {
       formData = form;
     }
 
-    return await fetch(url, {
+    return fetch(url, {
       method: 'POST',
-      body: formData || ''
+      body: formData || '',
     });
   }
 }
