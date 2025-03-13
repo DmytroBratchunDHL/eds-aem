@@ -85,6 +85,30 @@ export function decorateMain(main) {
   decorateBlocks(main);
 }
 
+export function setLaunchInitScript() {
+  const scriptTag = document.createElement('script');
+  scriptTag.innerHTML = `
+    window.dataLayer = window.dataLayer || [];
+    window.DHLTrackingHelper = window.DHLTrackingHelper || {};
+
+    DHLTrackingHelper.pushUtfEvent = function (event, data) {
+        data.event = event;
+        dataLayer.push(data);
+    };
+
+    DHLTrackingHelper.addUtfEventListener = function (element, eventName) {
+        element.addEventListener(eventName, function (event) {
+            DHLTrackingHelper.pushUtfEvent(eventName, event.detail);
+        });
+    };
+
+    DHLTrackingHelper.addUtfEventListener(window, "dhl_utf_contentInteraction");
+    DHLTrackingHelper.addUtfEventListener(window, "dhl_utf_engagementInteraction");
+    DHLTrackingHelper.addUtfEventListener(window, "dhl_utf_conversionInteraction");
+  `;
+  document.head.prepend(scriptTag);
+}
+
 /**
  * Loads everything needed to get to LCP.
  * @param {Element} doc The container element
@@ -92,6 +116,7 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
+  setLaunchInitScript();
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
