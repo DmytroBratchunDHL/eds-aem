@@ -40,12 +40,12 @@
 }
 
 .cmp-marketoForm .mktoButtonRow {
-  margin-top: 3rem;
+  margin-top: 30px;
 }
 
-@media screen and (width >= 48rem) {
+@media screen and (width >= 480px) {
   .cmp-marketoForm .mktoButtonRow {
-    margin-top: 5rem;
+    margin-top: 50px;
  }
 }
 
@@ -62,18 +62,22 @@
   width: 100% !important;
 }
 
+.cmp-marketoForm input {
+  border-radius: 5px;
+}
+
 .cmp-marketoForm .mktoRadioList {
   padding-left: 36px;
 }
 
 .cmp-marketoForm .mktoRadioList label, .cmp-marketoForm .mktoRadioList input {
-  margin-top: 1rem;
+  margin-top: 10px;
   display: inline;
   width: auto !important;
 }
 
 .cmp-marketoForm .mktoRadioList label {
-  padding-left: 1rem;
+  padding-left: 10px;
 }
 
 .cmp-marketoForm .mktoRadioList label::after {
@@ -94,7 +98,7 @@
 }
 
 .cmp-marketoForm__container {
-  padding: 2rem;
+  padding: 20px;
 }
 
 .cmp-marketoForm .mktoErrorMsg {
@@ -146,7 +150,7 @@
   font-weight: bold !important;
   border: none !important;
   border-radius: 0 !important;
-  padding: 1rem 32px !important;
+  padding: 10px 32px !important;
   color: white !important;
   background-color: #d40511 !important;
 }
@@ -214,7 +218,7 @@
   margin-bottom: 0 !important;
 }
 
-@media screen and (width >= 62rem) {
+@media screen and (width >= 620px) {
   .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(4), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(5), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(8), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(9) {
     width: 50%;
     display: inline-block;
@@ -223,20 +227,20 @@
  }
 
   .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(4), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(8) {
-    padding-right: 1rem;
+    padding-right: 10px;
  }
 
   [dir="rtl"] .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(4), [dir="rtl"] .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(8) {
     padding-right: 0;
-    padding-left: 1rem;
+    padding-left: 10px;
  }
 
   .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(5), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(9) {
-    padding-left: 1rem;
+    padding-left: 10px;
  }
 
   [dir="rtl"] .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(5), [dir="rtl"] .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(9) {
     padding-left: 0;
-    padding-right: 1rem;
+    padding-right: 10px;
  }
 }
