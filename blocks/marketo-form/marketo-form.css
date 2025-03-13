@@ -1,27 +1,35 @@
+/* stylelint-disable */
+
 .marketo-form {
   background: white;
 }
+
 .marketo-form--yellow {
   background: linear-gradient(to bottom, #fc0 0, #fc0 80%, #ffefb2 100%);
 }
+
 .cmp-marketoForm .mktoForm {
-  font-family: "Delivery", sans-serif !important;
+  font-family: Delivery, sans-serif !important;
   font-size: var(--font-size-sm) !important;
 }
+
 .cmp-marketoForm__container .mktoCaptchaDisclaimer {
   font-style: italic;
   font-size: 1.6rem;
   line-height: 2.3rem;
 }
+
 .cmp-marketoForm__container .mktoFormRow .mktoLabel {
   font-size: 1.6rem;
   line-height: 2.3rem;
 }
+
 .cmp-marketoForm__container .mktoFormRow .mktoHtmlText {
   font-style: italic;
   font-size: 1.6rem;
   line-height: 2.3rem;
 }
+
 .cmp-marketoForm__container .mktoFormRow input, .cmp-marketoForm__container .mktoFormRow select {
   box-shadow: none;
   border: 1px solid #707070;
@@ -30,42 +38,53 @@
   color: #828282;
   padding: 1.6rem;
 }
+
 .cmp-marketoForm .mktoButtonRow {
   margin-top: 3rem;
 }
-@media screen and (min-width: 48rem) {
+
+@media screen and (width >= 48rem) {
   .cmp-marketoForm .mktoButtonRow {
     margin-top: 5rem;
  }
 }
+
 .cmp-marketoForm.forms {
   margin-top: 0;
   padding-top: 0;
 }
+
 .cmp-marketoForm [data-marketo-hidden-form] {
   display: none;
 }
+
 .cmp-marketoForm form, .cmp-marketoForm label, .cmp-marketoForm select, .cmp-marketoForm input {
   width: 100% !important;
 }
+
 .cmp-marketoForm .mktoRadioList {
   padding-left: 3.6rem;
 }
+
 .cmp-marketoForm .mktoRadioList label, .cmp-marketoForm .mktoRadioList input {
   margin-top: 1rem;
   display: inline;
   width: auto !important;
 }
+
 .cmp-marketoForm .mktoRadioList label {
   padding-left: 1rem;
 }
-.cmp-marketoForm .mktoRadioList label:after {
+
+.cmp-marketoForm .mktoRadioList label::after {
   content: "";
   display: block;
 }
+
 .cmp-marketoForm .mktoAsterix {
   display: none;
 }
+
 .cmp-marketoForm__title {
   font-size: 2.3rem;
   text-transform: uppercase;
@@ -73,21 +92,26 @@
   margin-bottom: 1.5rem;
   line-height: 1.08;
 }
+
 .cmp-marketoForm__container {
   padding: 2rem;
 }
+
 .cmp-marketoForm .mktoErrorMsg {
   font-size: 1.2rem;
   color: #d40511;
   display: block;
   margin-top: 0.7rem;
 }
+
 .cmp-marketoForm select.mktoInvalid, .cmp-marketoForm input.mktoInvalid {
   border: solid 1px #d40511;
 }
+
 .cmp-marketoForm .mktoFieldWrap {
   position: relative;
 }
+
 .cmp-marketoForm label {
   padding-left: 3.6rem;
   font-size: 1.4rem;
@@ -96,17 +120,21 @@
   display: block;
   line-height: normal;
 }
+
 [dir="rtl"] .cmp-marketoForm label {
   padding-left: unset;
   padding-right: 3.6rem;
 }
+
 .cmp-marketoForm .mktoHtmlText {
   font-size: 1.6rem;
   color: #212121;
 }
+
 .cmp-marketoForm .mktoButtonWrap {
   margin-left: 0 !important;
 }
+
 .cmp-marketoForm .mktoButton {
   cursor: pointer !important;
   background-image: none !important;
@@ -122,24 +150,29 @@
   color: white !important;
   background-color: #d40511 !important;
 }
+
 .cmp-marketoForm .mktoButton:hover {
   color: white !important;
   background-color: #eb131e !important;
   text-decoration: none !important;
 }
+
 .cmp-marketoForm .mktoButton:active {
   background-color: #9a0000 !important;
   color: white !important;
 }
+
 .cmp-marketoForm .mktoCheckboxList {
   position: absolute;
   top: 0;
   left: 0;
   width: 2.3rem !important;
 }
+
 [dir="rtl"] .cmp-marketoForm .mktoCheckboxList {
   right: 0;
 }
+
 .cmp-marketoForm .mktoCheckboxList input {
   position: fixed;
   z-index: -1;
@@ -148,7 +181,8 @@
   left: -100%;
   top: -100%;
 }
-.cmp-marketoForm .mktoCheckboxList input + label:before {
+
+.cmp-marketoForm .mktoCheckboxList input + label::before {
   content: '';
   width: 2.3rem;
   height: 2.3rem;
@@ -158,7 +192,8 @@
   border: solid 1px #979797;
   background-color: white;
 }
-.cmp-marketoForm .mktoCheckboxList input:checked + label:after {
+
+.cmp-marketoForm .mktoCheckboxList input:checked + label::after {
   content: '';
   display: inline-block;
   position: absolute;
@@ -170,29 +205,36 @@
   left: 0.4rem;
   top: 0.8rem;
 }
+
 .cmp-marketoForm .mktoFormRow {
   margin-bottom: 1.7rem;
 }
+
 .cmp-marketoForm .mktoFormCol {
   margin-bottom: 0 !important;
 }
-@media screen and (min-width: 62rem) {
+
+@media screen and (width >= 62rem) {
   .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(4), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(5), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(8), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(9) {
     width: 50%;
     display: inline-block;
     font-size: 0;
     vertical-align: top;
  }
+
   .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(4), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(8) {
     padding-right: 1rem;
  }
+
   [dir="rtl"] .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(4), [dir="rtl"] .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(8) {
     padding-right: 0;
     padding-left: 1rem;
  }
+
   .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(5), .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(9) {
     padding-left: 1rem;
  }
+
   [dir="rtl"] .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(5), [dir="rtl"] .cmp-marketoForm #mktoForm_1795 .mktoFormRow:nth-child(9) {
     padding-left: 0;
     padding-right: 1rem;
