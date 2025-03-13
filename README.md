@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--dhl-discover-edge-delivery-demo--DmytroBratchunDHL.aem.page/
-- Live: https://main--dhl-discover-edge-delivery-demo--DmytroBratchunDHL.aem.live/
+- Preview: https://main--eds-aem--DmytroBratchunDHL.aem.page/
+- Live: https://main--eds-aem--DmytroBratchunDHL.aem.live/
 
 ## Documentation
 
