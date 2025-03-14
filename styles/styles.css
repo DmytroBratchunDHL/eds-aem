@@ -232,6 +232,9 @@ main img {
 /* sections */
 main > .section {
   margin: 40px 0;
+}
+
+.section {
   clear: both;
 }
 
