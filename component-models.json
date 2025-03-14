@@ -112,17 +112,13 @@
           {
             "name": "Highlight",
             "value": "highlight"
-          },
-          {
-            "name": "Highlight2",
-            "value": "highlight2"
           }
         ]
       },
       {
         "component": "select",
-        "name": "float-style",
-        "label": "Style",
+        "name": "style",
+        "label": "Float",
         "options": [
           {
             "name": "Default",
@@ -130,11 +126,68 @@
           },
           {
             "name": "Left",
-            "value": "left"
+            "value": "section-float--left"
           },
           {
             "name": "Right",
-            "value": "right"
+            "value": "section-float--right"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "style",
+        "label": "Width",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Full",
+            "value": "section-width--full"
+          },
+          {
+            "name": "Half",
+            "value": "section-width--half"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "style",
+        "label": "Padding",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Small",
+            "value": "section-padding--small"
+          },
+          {
+            "name": "Large",
+            "value": "section-padding--large"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "style",
+        "label": "Margin",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Small",
+            "value": "section-margin--small"
+          },
+          {
+            "name": "Large",
+            "value": "section-margin--large"
           }
         ]
       }
