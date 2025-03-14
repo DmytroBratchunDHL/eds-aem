@@ -263,36 +263,36 @@ main .section.highlight {
   box-sizing: border-box;
 }
 
-.section-float--left {
+.section-float-left {
   float: left;
   clear: both;
 }
 
-.section-float--right {
+.section-float-right {
   float: right;
   clear: both;
 }
 
-.section-width--full {
+.section-width-full {
   width: 100%;
 }
 
-.section-width--half {
+.section-width-half {
   width: 50%;
 }
 
-.section-padding--small {
+.section-padding-small {
   padding: 10px;
 }
 
-.section-padding--large {
+.section-padding-large {
   padding: 40px;
 }
 
-.section-margin--small {
+.section-margin-small {
   margin: 10px;
 }
 
-.section-margin--large {
+.section-margin-large {
   margin: 40px;
 }

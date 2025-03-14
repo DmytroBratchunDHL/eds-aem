@@ -126,11 +126,11 @@
           },
           {
             "name": "Left",
-            "value": "section-float--left"
+            "value": "section-float-left"
           },
           {
             "name": "Right",
-            "value": "section-float--right"
+            "value": "section-float-right"
           }
         ]
       },
@@ -145,11 +145,11 @@
           },
           {
             "name": "Full",
-            "value": "section-width--full"
+            "value": "section-width-full"
           },
           {
             "name": "Half",
-            "value": "section-width--half"
+            "value": "section-width-half"
           }
         ]
       },
@@ -164,11 +164,11 @@
           },
           {
             "name": "Small",
-            "value": "section-padding--small"
+            "value": "section-padding-small"
           },
           {
             "name": "Large",
-            "value": "section-padding--large"
+            "value": "section-padding-large"
           }
         ]
       },
@@ -183,11 +183,11 @@
           },
           {
             "name": "Small",
-            "value": "section-margin--small"
+            "value": "section-margin-small"
           },
           {
             "name": "Large",
-            "value": "section-margin--large"
+            "value": "section-margin-large"
           }
         ]
       }
