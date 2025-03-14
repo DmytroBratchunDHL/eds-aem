@@ -317,3 +317,34 @@ main::before,main::after {
 main::after {
   clear: both;
 }
+
+.title-underline .cmp-title__text:after
+
+
+.title-underline h1,
+.title-underline h2,
+.title-underline h3,
+.title-underline h4,
+.title-underline h5,
+.title-underline h6 {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.title-underline h1:after,
+.title-underline h2:after,
+.title-underline h3:after,
+.title-underline h4:after,
+.title-underline h5:after,
+.title-underline h6:after {
+  content: ".";
+  color: rgba(0, 0, 0, 0);
+  z-index: -1;
+  display: block;
+  position: absolute;
+  transform: translateY(round(-0.1em, 1px));
+  top: 0;
+  width: 50%;
+  border-bottom: .12em solid #d40511;
+}
