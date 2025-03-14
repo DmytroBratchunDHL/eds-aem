@@ -112,6 +112,10 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Grid",
+            "value": "aem-Grid"
           }
         ]
       },
