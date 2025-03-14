@@ -382,11 +382,24 @@
     "id": "page-metadata",
     "fields": [
       {
-        "component": "text",
-        "name": "theme",
-        "label": "Theme"
+        "component": "select",
+        "name": "max-width-style",
+        "label": "Max Width",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Full",
+            "value": "section-width-full"
+          },
+          {
+            "name": "Medium (1400px)",
+            "value": "main-max-width-medium"
+          }
+        ]
       }
     ]
   }
-  
 ]
