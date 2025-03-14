@@ -299,9 +299,9 @@ main .section.highlight {
 
 .aem-Grid::before,.aem-Grid::after {
   display: table;
-  content: " "
+  content: " ";
 }
 
 .aem-Grid::after {
-  clear: both
+  clear: both;
 }
