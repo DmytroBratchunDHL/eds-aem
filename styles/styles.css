@@ -265,12 +265,10 @@ main .section.highlight {
 
 .section-float-left {
   float: left;
-  clear: both;
 }
 
 .section-float-right {
   float: right;
-  clear: both;
 }
 
 .section-width-full {
@@ -297,11 +295,11 @@ main .section.highlight {
   margin: 40px;
 }
 
-.aem-grid::before,.aem-grid::after {
+main::before,main::after {
   display: table;
   content: " ";
 }
 
-.aem-grid::after {
+main::after {
   clear: both;
 }
