@@ -17,7 +17,8 @@
       "columns",
       "fragment",
       "marketo-form",
-      "quote"
+      "quote",
+      "styled-title"
     ]
   },
   {
@@ -38,9 +39,7 @@
       "text",
       "image",
       "button",
-      "title",
-      "marketo-form",
-      "quote"
+      "title"
     ]
   }
 ]
