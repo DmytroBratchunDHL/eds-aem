@@ -318,9 +318,6 @@ main::after {
   clear: both;
 }
 
-.title-underline .cmp-title__text:after
-
-
 .title-underline h1,
 .title-underline h2,
 .title-underline h3,
@@ -332,14 +329,14 @@ main::after {
   z-index: 1;
 }
 
-.title-underline h1:after,
-.title-underline h2:after,
-.title-underline h3:after,
-.title-underline h4:after,
-.title-underline h5:after,
-.title-underline h6:after {
+.title-underline h1::after,
+.title-underline h2::after,
+.title-underline h3::after,
+.title-underline h4::after,
+.title-underline h5::after,
+.title-underline h6::after {
   content: ".";
-  color: rgba(0, 0, 0, 0);
+  color: rgb(0 0 0 / 0%);
   z-index: -1;
   display: block;
   position: absolute;
