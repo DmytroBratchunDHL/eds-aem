@@ -114,6 +114,25 @@
             "value": "highlight"
           }
         ]
+      },
+      {
+        "component": "select",
+        "name": "float-style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ]
       }
     ]
   },
