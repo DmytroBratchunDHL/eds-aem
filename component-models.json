@@ -112,21 +112,17 @@
           {
             "name": "Highlight",
             "value": "highlight"
-          },
-          {
-            "name": "Grid",
-            "value": "aem-grid"
           }
         ]
       },
       {
-        "component": "select",
+        "component": "multiselect",
         "name": "float-style",
         "label": "Float",
         "options": [
           {
-            "name": "Default",
-            "value": ""
+            "name": "New Line",
+            "value": "section-float-new-line"
           },
           {
             "name": "Left",

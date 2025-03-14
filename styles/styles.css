@@ -272,6 +272,11 @@ main .section.highlight {
   float: right;
 }
 
+.section-float-new-line {
+  display: block;
+  clear: both !important;
+}
+
 .section-width-full {
   width: 100%;
 }
