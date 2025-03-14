@@ -232,6 +232,7 @@ main img {
 /* sections */
 main > .section {
   margin: 40px 0;
+  clear: both;
 }
 
 main > .section > div {
@@ -266,10 +267,12 @@ main .section.highlight {
 
 .section-float-left {
   float: left;
+  clear: none;
 }
 
 .section-float-right {
   float: right;
+  clear: none;
 }
 
 .section-float-new-line {
