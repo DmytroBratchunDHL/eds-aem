@@ -21,7 +21,7 @@ module.exports = {
     'xwalk/max-cells': ['error', {
       '*': 4,
       'marketo-form': 6,
-      'section': 10,
+      section: 10,
     }],
   },
 };
