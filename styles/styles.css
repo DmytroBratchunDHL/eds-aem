@@ -297,11 +297,11 @@ main .section.highlight {
   margin: 40px;
 }
 
-.aem-Grid::before,.aem-Grid::after {
+.aem-grid::before,.aem-grid::after {
   display: table;
   content: " ";
 }
 
-.aem-Grid::after {
+.aem-grid::after {
   clear: both;
 }
