@@ -117,7 +117,7 @@
       },
       {
         "component": "select",
-        "name": "style",
+        "name": "float-style",
         "label": "Float",
         "options": [
           {
@@ -136,7 +136,7 @@
       },
       {
         "component": "select",
-        "name": "style",
+        "name": "width-style",
         "label": "Width",
         "options": [
           {
@@ -155,7 +155,7 @@
       },
       {
         "component": "select",
-        "name": "style",
+        "name": "padding-style",
         "label": "Padding",
         "options": [
           {
@@ -174,7 +174,7 @@
       },
       {
         "component": "select",
-        "name": "style",
+        "name": "margin-style",
         "label": "Margin",
         "options": [
           {
