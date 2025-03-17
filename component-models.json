@@ -241,8 +241,8 @@
         "valueType": "string",
         "options": [
             {
-                "name": "icon-bulets",
-                "value": "icon-bulets"
+                "name": "icon-bullets",
+                "value": "icon-bullets"
             }
         ]
     }
