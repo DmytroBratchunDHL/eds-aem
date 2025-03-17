@@ -182,12 +182,8 @@ button {
   display: inline-block;
   max-width: 100%;
   margin: 12px 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
-  font-weight: 500;
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
@@ -197,14 +193,20 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+
+  transition: background-color .2s ease, color .2s ease;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 
 a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
-  cursor: pointer;
+  color: #fff;
+  background-color: #eb131e;
 }
 
 button:disabled,
@@ -215,9 +217,18 @@ button:disabled:hover {
 
 a.button.secondary,
 button.secondary {
-  background-color: unset;
-  border: 2px solid currentcolor;
-  color: var(--text-color);
+  border: 1px solid #d40511;
+  color: #d40511;
+  background-color: #fff;
+}
+
+a.button.secondary:hover,
+button.secondary:hover,
+a.button.secondary:focus,
+button.secondary:focus {
+  border: 1px solid #d40511;
+  color: #d40511;
+  background-color: #fff;
 }
 
 main img {
@@ -385,6 +396,7 @@ main::after {
 
 .center-button-alignment a.button{
   display: block;
+  min-width: min(400px, 100%);
   width: max-content;
   margin-left: auto;
   margin-right: auto;
