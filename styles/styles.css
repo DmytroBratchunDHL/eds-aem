@@ -393,7 +393,7 @@ main::after {
   margin: 0 auto;
 }
 
-.landing-page-two-columns body {
+body.landing-page-two-columns {
   background-color: var(--light-color);
 }
 
