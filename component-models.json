@@ -201,6 +201,10 @@
             "value": ""
           },
           {
+            "name": "No margin",
+            "value": "no-margin"
+          },
+          {
             "name": "Small",
             "value": "margin-small"
           },

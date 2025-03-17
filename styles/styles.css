@@ -303,12 +303,16 @@ main .section.highlight {
   }
 }
 
-.section-padding-small {
+.padding-small {
   padding: 10px;
 }
 
-.section-padding-large {
+.padding-large {
   padding: 40px;
+}
+
+.no-margin {
+  margin-top: 0;
 }
 
 .margin-small {
