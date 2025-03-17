@@ -354,3 +354,8 @@ main::after {
   width: 50%;
   border-bottom: .12em solid #d40511;
 }
+
+.landing-page-two-columns img {
+  display: block;
+  margin: 0 auto;
+}
