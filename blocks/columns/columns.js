@@ -18,17 +18,17 @@ export default function decorate(block) {
       if (icon && block.classList.contains('icon-bullets')) {
         col.classList.add('icon-bullet');
 
-        let iconParent = icon.parentElement;
+        const iconParent = icon.parentElement;
 
         if (iconParent !== col) {
-          iconParent.remove()
+          iconParent.remove();
         } else {
           icon.remove();
         }
 
         const contentWrapper = document.createElement('div');
 
-        while(col.firstChild) {
+        while (col.firstChild) {
           contentWrapper.appendChild(col.firstChild);
         }
 
