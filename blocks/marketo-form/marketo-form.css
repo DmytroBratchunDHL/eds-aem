@@ -2,6 +2,7 @@
 
 .marketo-form {
   background: white;
+  min-height: 300px;
 }
 
 .marketo-form--yellow {
@@ -260,3 +261,15 @@
   background-repeat: no-repeat
 }
 
+.cmp-marketoForm__loader {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: hsla(0, 0%, 100%, .8);
+  background-position-y: 20rem;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-image: url('/icons/loading.svg');
+  top: 0;
+  left: 0;
+}
