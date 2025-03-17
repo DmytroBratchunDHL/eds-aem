@@ -379,7 +379,7 @@ main::after {
   margin: 0 auto;
 }
 
-.center-button-alignment a{
+.center-button-alignment a.button{
   display: block;
   width: max-content;
   margin: 0 auto;
