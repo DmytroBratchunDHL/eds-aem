@@ -1,8 +1,14 @@
+import {
+  readBlockConfig
+} from '../../scripts/aem.js';
+
 export default function decorate(block) {
   // Extract values from the given HTML structure
   const munchkinId = block.children[1]?.querySelector('p')?.textContent.trim() || '';
   const formId = block.children[2]?.querySelector('p')?.textContent.trim() || '';
   const formHost = block.children[4]?.querySelector('a')?.getAttribute('href') || '';
+
+  const conf = readBlockConfig(block);
 
   // Define additional attributes based on the target structure
   const hiddenFormId = '1756';
