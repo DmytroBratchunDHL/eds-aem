@@ -382,7 +382,8 @@ main::after {
 .center-button-alignment a.button{
   display: block;
   width: max-content;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .background-color-light-gray {
