@@ -53,6 +53,7 @@ export default function decorate(block) {
 
   const loader = document.createElement('div');
   loader.className = 'cmp-marketoForm__loader';
+  loader.id = 'mktoLoader';
 
   // Append elements to form structure
   formWrapper.appendChild(formElement);
