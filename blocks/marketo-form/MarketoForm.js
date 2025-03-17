@@ -73,7 +73,6 @@ class MarketForm {
     this.loadMarketoForm(visibleFormHost, munchkinId, formId);
     window.MktoForms2.whenReady((originalForm) => {
       document.getElementById('mktoForms2BaseStyle')?.remove();
-      document.getElementsByClassName('cmp-marketoForm__loader')?.remove();
       document.getElementById('mktoForms2ThemeStyle')?.remove();
       originalForm.onSuccess((values, thankYouUrl) => {
         const hiddenFormId = baseElement.getAttribute('hiddenFormId');
