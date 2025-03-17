@@ -13,12 +13,14 @@
 :root {
   /* colors */
   --background-color: white;
-  --light-color: #f8f8f8;
+  --light-color: #f6f6f6;
   --dark-color: #505050;
   --title-color: #323232;
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+
+  --light-gray-color: #e2e2e2;
 
   /* fonts */
   --body-font-family: delivery, sans-serif;
@@ -355,7 +357,35 @@ main::after {
   border-bottom: .12em solid #d40511;
 }
 
+.landing-page-two-columns h1 {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.landing-page-two-columns h1:after {
+  content: ".";
+  color: transparent;
+  z-index: -1;
+  display: block;
+  position: absolute;
+  transform: translateY(round(-0.1em, 1px));
+  top: 0;
+  width: 50%;
+  border-bottom: .12em solid #d40511;
+}
+
 .landing-page-two-columns img {
   display: block;
   margin: 0 auto;
+}
+
+.center-button-alignment a{
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.background-color-light-gray {
+  background-color: var(--light-gray-color);
 }

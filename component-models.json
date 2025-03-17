@@ -114,6 +114,10 @@
             "value": "highlight"
           },
           {
+            "name": "Center Button Alignment",
+            "value": "center-button-alignment"
+          },
+          {
             "name": "Underline",
             "value": "title-underline"
           }
@@ -139,6 +143,17 @@
         ]
       },
       {
+        "component": "multiselect",
+        "name": "backgroun-style",
+        "label": "Float",
+        "options": [
+          {
+            "name": "Gray",
+            "value": "background-color-light-gray"
+          }
+        ]
+      },
+      {
         "component": "select",
         "name": "width-style",
         "label": "Width",
@@ -154,44 +169,6 @@
           {
             "name": "Half",
             "value": "section-width-half"
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "padding-style",
-        "label": "Padding",
-        "options": [
-          {
-            "name": "Default",
-            "value": ""
-          },
-          {
-            "name": "Small",
-            "value": "section-padding-small"
-          },
-          {
-            "name": "Large",
-            "value": "section-padding-large"
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "margin-style",
-        "label": "Margin",
-        "options": [
-          {
-            "name": "Default",
-            "value": ""
-          },
-          {
-            "name": "Small",
-            "value": "section-margin-small"
-          },
-          {
-            "name": "Large",
-            "value": "section-margin-large"
           }
         ]
       }
