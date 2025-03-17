@@ -393,10 +393,6 @@ main::after {
   margin: 0 auto;
 }
 
-body.landing-page-two-columns {
-  background-color: var(--light-color);
-}
-
 .center-button-alignment a.button{
   display: block;
   min-width: min(400px, 100%);
