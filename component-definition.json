@@ -181,6 +181,7 @@
                 "template": {
                   "name": "Marketo Form",
                   "model": "marketo-form",
+                  "key-value": true,
                   "elementid": "903-EZK-832",
                   "formid": "1795",
                   "hostname": "https://express-resource.dhl.com"
