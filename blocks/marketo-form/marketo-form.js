@@ -51,9 +51,13 @@ export default function decorate(block) {
   const scriptElement = document.createElement('script');
   scriptElement.src = `${formHost}/js/forms2/js/forms2.min.js`;
 
+  const loader = document.createElement('div');
+  loader.className = 'cmp-marketoForm__loader';
+
   // Append elements to form structure
   formWrapper.appendChild(formElement);
   formWrapper.appendChild(scriptElement);
+  formWrapper.appendChild(loader);
   cmpContainer.appendChild(formWrapper);
   newFormContainer.appendChild(cmpContainer);
 
