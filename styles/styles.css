@@ -187,8 +187,6 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -198,6 +196,8 @@ button {
   border: 0;
   border-radius: 4px;
   padding: 10px 32px;
+  color: #fff;
+  background-color: #d40511;
 }
 
 a.button:hover,
