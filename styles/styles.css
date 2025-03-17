@@ -19,7 +19,6 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
-
   --light-gray-color: #e2e2e2;
 
   /* fonts */
@@ -363,7 +362,7 @@ main::after {
   z-index: 1;
 }
 
-.landing-page-two-columns h1:after {
+.landing-page-two-columns h1::after {
   content: ".";
   color: transparent;
   z-index: -1;
