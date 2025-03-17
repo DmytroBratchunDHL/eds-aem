@@ -16,11 +16,7 @@ export default function decorate(block) {
 
       const icon = col.querySelector('span.icon');
       if (icon && block.classList.contains('icon-bullets')) {
-        const iconWrapper = icon.closest('div');
-        if (iconWrapper && iconWrapper.children.length === 1) {
-          // icon is only content in column
-          iconWrapper.classList.add('icon-bullet');
-        }
+        col.classList.add('icon-bullet');
       }
     });
   });
