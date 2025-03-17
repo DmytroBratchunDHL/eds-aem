@@ -208,6 +208,14 @@ button:focus {
   background-color: #eb131e;
 }
 
+a.button:active,
+a.button:active,
+button:active,
+button:active {
+  background-color: #9a0000;
+  color: #fff;
+}
+
 button:disabled,
 button:disabled:hover {
   background-color: var(--light-color);
@@ -217,6 +225,7 @@ button:disabled:hover {
 a.button.secondary,
 button.secondary {
   border: 1px solid #d40511;
+  font-weight: normal;
   color: #d40511;
   background-color: #fff;
 }
@@ -225,9 +234,18 @@ a.button.secondary:hover,
 button.secondary:hover,
 a.button.secondary:focus,
 button.secondary:focus {
-  border: 1px solid #d40511;
-  color: #d40511;
-  background-color: #fff;
+  background-color: #d40511;
+  border-color: #d40511;
+  color: #fff;
+}
+
+a.button.secondary:active,
+button.secondary:active,
+a.button.secondary:active,
+button.secondary:active {
+  border-color: #9a0000;
+  background-color: #9a0000;
+  color: #fff;
 }
 
 main img {
