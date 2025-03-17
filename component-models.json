@@ -335,20 +335,16 @@
     "fields": [
       {
         "component": "select",
-        "name": "max-width-style",
-        "label": "Max Width",
+        "name": "template",
+        "label": "Template",
         "options": [
           {
             "name": "Default",
             "value": ""
           },
           {
-            "name": "Full",
-            "value": "section-width-full"
-          },
-          {
-            "name": "Medium (1400px)",
-            "value": "main-max-width-medium"
+            "name": "Landing Page (Two Columns)",
+            "value": "landing-page-two-columns"
           }
         ]
       }
