@@ -145,7 +145,7 @@
       {
         "component": "multiselect",
         "name": "backgroun-style",
-        "label": "Float",
+        "label": "Baclground",
         "options": [
           {
             "name": "Gray",
@@ -169,6 +169,44 @@
           {
             "name": "Half",
             "value": "section-width-half"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "padding-style",
+        "label": "Padding",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Small",
+            "value": "padding-small"
+          },
+          {
+            "name": "Large",
+            "value": "padding-large"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "margin-style",
+        "label": "Margin",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Small",
+            "value": "margin-small"
+          },
+          {
+            "name": "Large",
+            "value": "margin-large"
           }
         ]
       }
