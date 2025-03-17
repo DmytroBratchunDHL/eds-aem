@@ -1,5 +1,5 @@
 import {
-  readBlockConfig
+  readBlockConfig,
 } from '../../scripts/aem.js';
 
 export default function decorate(block) {
@@ -9,6 +9,7 @@ export default function decorate(block) {
   const formHost = block.children[4]?.querySelector('a')?.getAttribute('href') || '';
 
   const conf = readBlockConfig(block);
+  console.log(conf);
 
   // Define additional attributes based on the target structure
   const hiddenFormId = '1756';
