@@ -58,8 +58,8 @@ export default function decorate(block) {
   // Append elements to form structure
   formWrapper.appendChild(formElement);
   formWrapper.appendChild(scriptElement);
-  formWrapper.appendChild(loader);
   cmpContainer.appendChild(formWrapper);
+  newFormContainer.appendChild(loader);
   newFormContainer.appendChild(cmpContainer);
 
   // Replace the original block content
