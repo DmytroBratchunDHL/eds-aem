@@ -4,18 +4,18 @@ import {
 
 export default function decorate(block) {
   // Extract values from the given HTML structure
-  const munchkinId = block.children[1]?.querySelector('p')?.textContent.trim() || '';
-  const formId = block.children[2]?.querySelector('p')?.textContent.trim() || '';
-  const formHost = block.children[4]?.querySelector('a')?.getAttribute('href') || '';
-
+  
   const conf = readBlockConfig(block);
   console.log(conf);
-
+  
   // Define additional attributes based on the target structure
-  const hiddenFormId = '1756';
-  const action = '/discover/content/dhl/global/en-global/open-an-account.form.html';
-  const formstart = '/discover/content/dhl/global/en-global/open-an-account/jcr:content/root/two_columns_container/right-column-body/marketoform.form.html';
-  const source = 'conf';
+  const munchkinId = cong['element-id'] || '903-EZK-832';
+  const formId = cong['form-id'] || '1795';
+  const formHost = cong['hostname'] || 'https://express-resource.dhl.com';
+  const hiddenFormId =  cong['hidden-form-id'] || '1756';
+  const action =  cong['action'] || '/discover/content/dhl/global/en-global/open-an-account.form.html';
+  const formstart =  cong['form-start'] || '/discover/content/dhl/global/en-global/open-an-account/jcr:content/root/two_columns_container/right-column-body/marketoform.form.html';
+  const source = cong['source'] || 'conf';
   const analyticsData = JSON.stringify({
     content: {
       attributes: {},

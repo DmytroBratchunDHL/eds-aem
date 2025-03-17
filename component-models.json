@@ -290,13 +290,6 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "form-title",
-        "label": "Form Title",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
         "name": "element-id",
         "label": "Marketo 'Element' ID",
         "value": "903-EZK-832"
@@ -321,13 +314,6 @@
         "name": "hostname",
         "label": "Marketo instance hostname (such as https://express-resource.dhl.com)",
         "value": "https://express-resource.dhl.com"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "test",
-        "label": "test",
-        "value": ""
       }
     ]
   },
