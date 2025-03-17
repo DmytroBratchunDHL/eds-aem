@@ -209,9 +209,7 @@ button:focus {
 }
 
 a.button:active,
-a.button:active,
-button:active,
-button:active {
+button:active{
   background-color: #9a0000;
   color: #fff;
 }
@@ -240,9 +238,7 @@ button.secondary:focus {
 }
 
 a.button.secondary:active,
-button.secondary:active,
-a.button.secondary:active,
-button.secondary:active {
+button.secondary:active{
   border-color: #9a0000;
   background-color: #9a0000;
   color: #fff;
