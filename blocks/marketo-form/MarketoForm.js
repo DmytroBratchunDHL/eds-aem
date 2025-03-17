@@ -73,6 +73,7 @@ class MarketForm {
     this.loadMarketoForm(visibleFormHost, munchkinId, formId);
     window.MktoForms2.whenReady((originalForm) => {
       document.getElementById('mktoForms2BaseStyle')?.remove();
+      document.getElementsByClassName('cmp-marketoForm__loader')?.remove();
       document.getElementById('mktoForms2ThemeStyle')?.remove();
       originalForm.onSuccess((values, thankYouUrl) => {
         const hiddenFormId = baseElement.getAttribute('hiddenFormId');
@@ -110,7 +111,6 @@ class MarketForm {
     const formHost = baseElement.getAttribute('formHost');
     window.MktoForms2.whenReady((marketoForm) => {
       document.getElementById('mktoForms2BaseStyle')?.remove();
-      console.log('test');
       document.getElementById('mktoForms2ThemeStyle')?.remove();
       if (marketoForm.getId().toString() === baseElement.getAttribute('formid').toString()) {
         marketoForm.onSuccess((e) => {
