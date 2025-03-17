@@ -110,6 +110,7 @@ class MarketForm {
     const formHost = baseElement.getAttribute('formHost');
     window.MktoForms2.whenReady((marketoForm) => {
       document.getElementById('mktoForms2BaseStyle')?.remove();
+      console.log('test');
       document.getElementById('mktoForms2ThemeStyle')?.remove();
       if (marketoForm.getId().toString() === baseElement.getAttribute('formid').toString()) {
         marketoForm.onSuccess((e) => {
