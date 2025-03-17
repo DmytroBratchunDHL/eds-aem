@@ -294,8 +294,10 @@ main .section.highlight {
   width: 100%;
 }
 
-.section-width-half {
-  width: 50%;
+@media (width >= 900px) {
+  .section-width-half {
+    width: 50%;
+  }
 }
 
 .section-padding-small {
